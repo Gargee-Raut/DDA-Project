@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Causes">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_marginTop="10dp"
+        android:text="CAUSES : "
+        android:fontFamily="@font/arial"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textColor="#4B144B">
+
+    </TextView>
+
+    <TextView
+        android:padding="5dp"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:justificationMode="inter_word"
+        android:textSize="18sp"
+        android:ems="10"
+        android:textColor="#232023"
+        android:gravity="start"
+        android:text="Common causes include:\n1.Family history :- \nYou’re at a higher risk for developing depression if you have a family history of depression or another mood disorder.
+\n2.Early childhood trauma :- \nSome events affect the way your body reacts to fear and stressful situations.
+\n3.Brain structure :- \nThere’s a greater risk for depression if the frontal lobe of your brain is less active. However, scientists don’t know if this happens before or after the onset of depressive symptoms.
+\n4.Medical conditions :- \nCertain conditions may put you at higher risk, such as chronic illness, insomnia, chronic pain, or attention-deficit hyperactivity disorder (ADHD).
+\n5.Drug use :- \nA history of drug or alcohol misuse can affect your risk."
+        app:layout_constraintEnd_toEndOf="parent"
+        android:fontFamily="sans-serif"
+        app:layout_constraintTop_toTopOf="parent"   />
+
+    <TextView
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_marginTop="20dp"
+        android:text="SYMPTOMS : "
+        android:fontFamily="@font/arial"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textColor="#4B144B">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        android:textColor="#232023"
+        android:padding="5dp"
+        android:text="The symptoms of depression can include:
+\n1. A depressed mood
+\n2.Fatigue or loss of energy
+\n3.Changes in appetite
+\n4.Unintentional weight loss or gain
+\n5.Sleeping too much or too little
+\n6.Agitation, restlessness, and pacing up and down
+\n7.Slowed movement and speech
+\n8.Feelings of worthlessness or guilt
+\n9.Difficulty thinking, concentrating, or making decisions
+\n10.Recurrent thoughts of death or suicide, or an attempt at suicide ">
+
+    </TextView>
+
+</LinearLayout>
+</ScrollView>

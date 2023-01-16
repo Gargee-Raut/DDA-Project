@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".depression">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:layout_marginTop="10dp"
+            android:text="DEPRESSION : "
+            android:gravity="start|center_vertical"
+            android:layout_gravity="center"
+            android:fontFamily="@font/arial"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textColor="#4B144B">
+
+        </TextView>
+
+        <TextView
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="05dp"
+            android:textColor="#232023"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:gravity="start"
+        android:padding="10dp"
+        android:justificationMode="inter_word"
+        android:text="\t\tThe word we throw around so easily nowadays. That word we use to describe anything from a bad day to an overwhelming inability to live life. But as anyone with depression knows, it is much more than any one word can describe.\n\t\tIt slowly takes over a person's life to the point where they forget how it all began. It is insidious,creeping up and building up over time. \n\t\tLittle, unnoticeable things change at first, leading to bigger changes.When you feel so low that things you previously enjoyed no longer hold that same joy. You wonder how you ever enjoyed anything at all You wonder what other people have that you cant get a hold of. \n\t\tYou find it harder and harder to get out of bed in the morning. You drag yourself through each day. You find it difficult to go to bed at night. The low is so low that it seems to take over, overwhelming you in a way that you Could not have imagined beforehand.\n\t\tThe effort to do the small things is huge. The pressure to do anything is even bigger. \n\t\tPeople
+always say you should talk to someone, tell someone, but how do you put words on something so hard to even understand yourself? \n\t\tHow do you explain to someone that you want to live your life but also you don't know how you can? \n\t\tHow do you explain that this no longer feels like a choice, that it controls you not the other way around?"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+</ScrollView>

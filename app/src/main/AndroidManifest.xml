@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tweepress">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon12"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon12"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Tweepress"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Feelings"></activity>
+        <activity android:name=".sad" />
+        <activity android:name=".Neutral" />
+        <activity android:name=".happy" />
+        <activity android:name=".angry" />
+        <activity android:name=".Pie" />
+        <activity android:name=".share" />
+        <activity android:name=".depression" />
+        <activity android:name=".Causes" />
+        <activity android:name=".DepressionInfo" />
+        <activity android:name=".Analyse" />
+        <activity android:name=".Homepage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
